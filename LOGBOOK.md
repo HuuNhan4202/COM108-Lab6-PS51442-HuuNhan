@@ -1,7 +1,7 @@
 # NHẬT KÝ THỰC HIỆN LAB 6 (LOGBOOK)
 
-* **Họ và tên:** 
-* **Mã sinh viên:** 
+* **Họ và tên: Lại Nguyễn Hữu Nhân** 
+* **Mã sinh viên: PS51442** 
 * **Link Repository cá nhân:** 
 
 > [!NOTE]
