@@ -18,7 +18,7 @@
 
 ### Lần 2: Bài 1
 - Trạng thái: sửa lỗi lần 2
-- Lỗi / Cách sửa: 
+- Lỗi / Cách sửa: Hoán đổi vị trí xử lý giữa phần tử ở giữa mảng (else if) và phần tử biên cuối (else).
 
 ### Lần 3: Bài 1 (Dự phòng)
 - Trạng thái: 
@@ -27,10 +27,11 @@
 ---
 
 ### Lần 4: Bài 2 - Nén Sai Phân Dữ Liệu IoT (Delta Encoding)
-- Trạng thái: 
-- Prompt hỏi AI (nếu có): 
-- Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Trạng thái: Chờ chấm
+- Prompt hỏi AI (nếu có): đã dùng AI , hỏi AI cách trình bày
+- Lỗi phát hiện qua Test (nếu có): chưa có
+- Cách sửa / Bài học: Chờ kết quả phản hồi từ GitHub Actions
+
 
 ### Lần 5: Bài 2
 - Trạng thái: 
