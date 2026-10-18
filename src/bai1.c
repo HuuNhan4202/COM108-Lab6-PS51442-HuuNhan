@@ -53,9 +53,9 @@ void lamMinTinHieu(float raw[], float smooth[], int n) {
             if (i == 0){
                 smooth[0] = (raw[0] + raw[1]) / 2.0f;
             }else if (i >= 1 && i <= n - 2){
-                smooth[n - 1] = (raw[n - 2] + raw[n - 1]) / 2.0f;
-            }else{
                 smooth[i] = (raw[i - 1] + raw[i] + raw[i + 1]) / 3.0f;
+            }else{
+                smooth[n - 1] = (raw[n - 2] + raw[n - 1]) / 2.0f;
             }
         }
     }
