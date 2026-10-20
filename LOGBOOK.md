@@ -31,7 +31,7 @@
 - Prompt hỏi AI (nếu có): đã dùng AI , hỏi AI cách trình bày
 - Lỗi phát hiện qua Test (nếu có): chưa có
 - Cách sửa / Bài học: Chờ kết quả phản hồi từ GitHub Actions
-
++
 
 ### Lần 5: Bài 2
 - Trạng thái: 
@@ -44,10 +44,24 @@
 ---
 
 ### Lần 7: Bài 3 - Bộ Lọc Làm Mờ Điểm Ảnh (Box Blur Filter 3x3)
-- Trạng thái: 
-- Prompt hỏi AI (nếu có): 
-- Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Trạng thái: chờ chấm
+- Prompt hỏi AI (nếu có): đoạn code lamMoMaTran của tôi đang tính ra kết quả bị sai số ở các ô nằm ở biên và góc của ma trận, đồng thời các ô phía sau bị lệch giá trị,  code bị lỗi ở bên dưới, chỉ ra những dòng nào bị sai, giải thích ngắn gọn nguyên nhân: int tong = 0; 
+    int dem = 0; 
+    for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++){
+            for (int r = i - 1; r <= i + 1; r++){
+                for (int c = j - 1; c <= j + 1; c++){
+                    if (r >= 0 && r < row && c >= 0 && c < col){
+                        tong += src[r][c];
+                        dem++;
+                    }
+                }
+            }
+            dest[i][j] = tong / 9; 
+        }
+    }
+- Lỗi phát hiện qua Test (nếu có): Lỗi chia cố định cho 9 thay vì chia cho số lượng ô lân cận
+- Cách sửa / Bài học: Chờ kết quả phản hồi từ GitHub Actions
 
 ### Lần 8: Bài 3
 - Trạng thái: 

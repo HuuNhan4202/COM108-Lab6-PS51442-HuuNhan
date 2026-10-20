@@ -53,5 +53,21 @@ void lamMoMaTran(int src[][MAX_COLS], int dest[][MAX_COLS], int row, int col) {
     // Giữ nguyên ma trận gốc src.
     // LƯU Ý: Cực kỳ cẩn thận xử lý biên (ô góc có 4 lân cận, ô cạnh có 6 lân cận, ô tâm có 9 lân cận)
     // Tuyệt đối không dùng lệnh in ra màn hình bên trong hàm này!
-    
+   for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++) {
+            int tong = 0;
+            int dem = 0;
+            for (int r = i - 1; r <= i + 1; r++){
+                for (int c = j - 1; c <= j + 1; c++){
+                    if (r >= 0 && r < row && c >= 0 && c < col){
+                        tong += src[r][c];
+                        dem++;
+                    }
+                }
+            }
+            if (dem > 0){
+                dest[i][j] = tong / dem;
+            }
+        }
+    }
 }
