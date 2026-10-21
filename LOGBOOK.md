@@ -75,9 +75,9 @@
 
 ### Lần 10: Bài 4 - Radar Dò Điểm Nóng (Thermal Peak Detection)
 - Trạng thái: 
-- Prompt hỏi AI (nếu có): 
-- Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Prompt hỏi AI (nếu có): giải thích kĩ đề bài, viết ra đoạn code hoàn chỉnh nhưng giải thích từng dòng 1 cách dễ hiểu, sau đó tổng kết lại những kiến thức cần nắm vững trong bài này
+- Lỗi phát hiện qua Test (nếu có): chưa có
+- Cách sửa / Bài học: Chờ kết quả phản hồi từ GitHub Actions
 
 ### Lần 11: Bài 4
 - Trạng thái: 
